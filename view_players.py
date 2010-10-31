@@ -12,8 +12,6 @@ from questions import *
 from view_question import *
 from pygame.locals import *
 
-# TODO: wiimote-handling
-
 STATE_IDLE = 0
 STATE_PLAYER1 = 1
 STATE_PLAYER2 = 2
