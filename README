@@ -21,6 +21,13 @@ würde ich es allerdings nicht mehr in Python implementieren ;-).
  • Es gibt keine Moderatoransicht. Die Reihenfolge der Rätsel inklusive
    vollständiger Auflösung muss also vorher separat notiert werden.
 
+ • Die Wiimotes müssen jedes mal am Anfang verbunden werden, was natürlich
+   relativ lange dauert. Ein dauerhaftes Pairing wäre besser, ist aber ziemlich
+   schlecht dokumentiert bzw. funktionierte nicht in unserem Test.
+
+ • Damit bei einem Absturz nicht gleich alles weg ist, sollte man ein Statefile
+   bauen.
+
 ────────────────────────
  Lizenz
 ────────────────────────
